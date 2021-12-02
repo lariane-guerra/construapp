@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login</title>
+      <link href="assets/css/styleslogin.css" rel="stylesheet" type="text/css"/>
+   </head>
+   <body id="body_login">
+      <section class="section_login">
+         <div class="div_logo">
+            <img class="logo" src="assets/img/logo_branca.png">
+         </div>
+         <form name="login" action="minhasobras.html" method="GET">
+            <fieldset class="field_formulario">    
+               <label class="label_cpf_cnpj">CPF/CNPJ
+              <div class="div_cpf_cnpj">
+               <input type="text" name="cpf_cnpj" id="cpf_cnpj" required="true" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"/>
+               </div>
+               </label> 
+             
+             <label class="label_senha">Senha
+              <div class="div_senha">
+               
+               <input type="password" name="senha" id="senha" required="true"/>
+               </div>
+               </label>
+                
+               <div class="div_checkbox">
+               <label class="label_checkbox">
+               <input class="checkbox" type="checkbox" name="lembrar"/>Lembrar-me
+               </label>
+               </div>
+            </fieldset>
+            <div id="div_botao">
+            <button class="botao" type="submit">Entrar</button>
+            </div>
+         </form>
+      </section>
+   </body>
+</html>

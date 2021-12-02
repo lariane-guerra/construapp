@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ===== BOX ICONS ===== -->
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+      
+           
+      <!-- ===== CSS ===== -->
+
+      <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/stylesfornecedor.css" type="text/css" />
+
+      <title>Fornecedores</title>
+   </head>
+   <body id="body-pd">
+      <header class="header" id="header">
+         <div class="header__toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+         </div>
+         <div class="header__img">
+            <p>Contrutora Cristina</p>
+            <img src="assets/img/perfil.png" alt="">                
+         </div>
+      </header>
+      <div class="l-navbar" id="nav-bar">
+         <nav class="nav">
+            <div>
+               <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="">
+                <span class="nav__logo-name">ConstruApp</span>
+               </a>
+               <div class="nav__list">
+                  <a href="minhasobras.html" class="nav__link active">
+                    <i class='bx bx-buildings nav__icon'></i>
+                    <span class="nav__name">Minhas Obras</span>
+                  </a>
+                  <!--<a href="#" class="nav__link">
+                     <i class='bx bx-calendar nav__icon'></i>
+                     <span class="nav__name">Calendário</span>
+                     </a> -->
+                  <a href="fornecedor.html" class="nav__link">
+                   <i class='bx bx-store nav__icon'></i>
+                    <span class="nav__name">Fornecedor</span>
+                  </a>
+                  <a href="funcionario.html" class="nav__link">
+                    <i class='bx bx-user nav__icon'></i>
+                    <span class="nav__name">Funcionários</span>
+                  </a>
+                  <a href="https://web.whatsapp.com/send?phone=" target="_blank" class="nav__link">
+                    <i class='bx bx-chat nav__icon' ></i>
+                    <span class="nav__name">Chat</span>
+                  </a>
+                  <!-- <a href="#" class="nav__link">
+                  <i class='bx bx-bell nav__icon'></i>
+                  <span class="nav__name">Notificações</span>
+                  </a> -->
+               </div>
+            </div>
+            <a href="index.html" class="nav__link">
+            <i class='bx bx-log-out nav__icon' ></i>
+            <span class="nav__name">Sair</span>
+            </a>
+         </nav>
+      </div>
+      
+      <section class="azul">
+         <div class="laranja">
+            <div class="rosinha">
+               <h1>Fornecedores</h1>
+            </div>
+          <div class="icone">
+            <div>
+              <a href="addforn.html"><i class='bx bxs-plus-circle nav__icon2'></i></a>
+            </div>   
+         </div>
+      </section>
+      <section class="info">
+        <aside>
+          <div class="fornecedor"> 
+            <div class="foto">
+              <button id='btn-forn1'><img src="assets/img/santacruz.png" alt=""></button>
+            </div>           
+            <div class="nome_forn">
+              <h3>Santa Cruz Acabamentos</h3>
+              <p>Acabamento</p>                 
+            </div>         
+          </div>
+
+          <div class="fornecedor"> 
+            <div class="foto">
+              <button id='btn-forn2'><img src="assets/img/polimix.png" alt=""></button>
+            </div>           
+            <div class="nome_forn">
+              <h3>PoliMix</h3>
+              <p>Concretagem</p>
+            </div>         
+          </div>
+
+          <div class="fornecedor"> 
+            <div class="foto">
+              <button id='btn-forn3'><img src="assets/img/rede.png" alt=""></button>
+            </div>           
+            <div class="nome_forn">
+              <h3>Rede Contruir</h3>
+              <p>Material de Construção</p>
+            </div>         
+          </div>
+
+          <div class="fornecedor"> 
+            <div class="foto">
+              <button id='btn-forn4'><img src="assets/img/central.png" alt=""></button>
+            </div>           
+            <div class="nome_forn">
+              <h3>Central Loc</h3>
+              <p>Máquinas e Equipamentos</p>
+            </div>         
+          </div>
+
+          <!-- <div class="funcionario"> 
+            <div class="foto">
+              <button id='btn-perfil5'><img src="assets/img/func4.png" alt=""></button>
+            </div>           
+            <div class="nome_func">
+              <h3>Adalberto Gusmão</h3>
+              <p>Carpinteiro</p>
+            </div>         
+          </div> -->
+        </aside>
+
+        <article>
+            <div id="forn1">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/santacruz.png" alt="">
+                    <h3>Santa Cruz Acabamentos</h3>
+                    <p>Acabamento</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1a">
+                    <h4>Razão Social:</h4>
+                    <p>Acabamentos Santa Cruz LTDA</p>
+                  </div>
+                  <div class = "campos1b">
+                    <h4>CNPJ:</h4>
+                    <p>17.197.120/0001-23 </p>
+                  </div>                  
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Avenida Transamazonica</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>1518</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p></p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>CEP:</h4>
+                    <p>33350-000</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Parque Jardim Encantado</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>São José da Lapa</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>                                    
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Telefone(1)</h4>
+                    <p>(31)3271-1471</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(2):</h4>
+                    <p>(31)3222-1545</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(3)</h4>
+                    <p></p>
+                  </div>  
+                  <div class = "campos4">
+                    <h4>Contato</h4>
+                    <p>Jose Gomes</p>
+                  </div>                               
+                </div>
+                <div id = "campos5">
+                  <div class = "campos5c">
+                    <h4>e-mail:</h4>
+                    <p>rmbh@terra.com.br</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Data Cadastro:</h4>
+                    <p>10/10/2015</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Loja:</h4>
+                    <p>Matriz</p>
+                  </div>                                 
+                </div>
+            </div>
+
+            <div id="forn2">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/polimix.png" alt="">
+                    <h3>PoliMix</h3>
+                    <p>Concretagem</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1a">
+                    <h4>Razão Social:</h4>
+                    <p>Polimix Concreto LTDA</p>
+                  </div>
+                  <div class = "campos1b">
+                    <h4>CNPJ:</h4>
+                    <p>29.067.113/0213-55</p>
+                  </div>                  
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Via Expressa De Contagem</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>3076</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p></p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>CEP:</h4>
+                    <p>32.370-485</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Agua Branca</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>Santana de Parnaiba</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>                                    
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Telefone(1)</h4>
+                    <p>(31)3421-6103</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(2):</h4>
+                    <p></p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(3)</h4>
+                    <p></p>
+                  </div>  
+                  <div class = "campos4">
+                    <h4>Contato</h4>
+                    <p>Luiz Gustavo</p>
+                  </div>                               
+                </div>
+                <div id = "campos5">
+                  <div class = "campos5c">
+                    <h4>e-mail:</h4>
+                    <p>proguscontabilidade@terra.com.br</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Data Cadastro:</h4>
+                    <p>15/02/1016</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Loja:</h4>
+                    <p>Filial</p>
+                  </div>                                 
+                </div>
+            </div>
+
+            <div id="forn3">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/rede.png" alt="">
+                    <h3>Rede Construir</h3>
+                    <p>Material de Construção</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1a">
+                    <h4>Razão Social:</h4>
+                    <p>Centro De Distribuicao Materiais De Construcao Minas Gerais Ltda</p>
+                  </div>
+                  <div class = "campos1b">
+                    <h4>CNPJ:</h4>
+                    <p>09.573.134/0001-76</p>
+                  </div>                  
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Av. Gastão Demétrio Maia</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>484</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p>SL102</p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>CEP:</h4>
+                    <p>31742096</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Floramar</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>Belo Horizonte</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>                                    
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Telefone(1)</h4>
+                    <p>(31)3081-9113</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(2):</h4>
+                    <p></p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(3)</h4>
+                    <p></p>
+                  </div>  
+                  <div class = "campos4">
+                    <h4>Contato</h4>
+                    <p>Luciana</p>
+                  </div>                               
+                </div>
+                <div id = "campos5">
+                  <div class = "campos5c">
+                    <h4>e-mail:</h4>
+                    <p>contcel@uai.com.br</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Data Cadastro:</h4>
+                    <p>01/08/2017</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Loja:</h4>
+                    <p>Filial</p>
+                  </div>                                 
+                </div>
+            </div>
+
+
+            <div id="forn4">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/central.png" alt="">
+                    <h3>Central Loc</h3>
+                    <p>Máquinas e Equipamentos</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1a">
+                    <h4>Razão Social:</h4>
+                    <p>Central Loc Equipamentos para Construção Civil Ltda</p>
+                  </div>
+                  <div class = "campos1b">
+                    <h4>CNPJ:</h4>
+                    <p>09.389.344/0001-09</p>
+                  </div>                  
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Avenida dos Esportes</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>699</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p></p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>CEP:</h4>
+                    <p>30730-055</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Padre Eustaquio</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>Belo Horizonte</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>                                    
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Telefone(1)</h4>
+                    <p>(31)3212-1101</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(2):</h4>
+                    <p>(31)3271-6977</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone(3)</h4>
+                    <p></p>
+                  </div>  
+                  <div class = "campos4">
+                    <h4>Contato</h4>
+                    <p>Augusto Costa</p>
+                  </div>                               
+                </div>
+                <div id = "campos5">
+                  <div class = "campos5c">
+                    <h4>e-mail:</h4>
+                    <p>diplomatasiare@gmail.com</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Data Cadastro:</h4>
+                    <p>12/03/2015</p>
+                  </div>
+                  <div class = "campos5">
+                    <h4>Loja:</h4>
+                    <p>Matriz</p>
+                  </div>                                 
+                </div>
+            </div>
+        </article>
+      </section>
+
+        <script src="assets/js/fornecedor.js"></script>
+         
+   </body>
+</html>

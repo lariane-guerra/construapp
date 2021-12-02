@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ===== BOX ICONS ===== -->
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+      
+           
+      <!-- ===== CSS ===== -->
+
+      <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/stylesfuncionario.css" type="text/css" />
+      
+      
+      
+      
+
+      <title>Funcionários</title>
+   </head>
+   <body id="body-pd">
+      <header class="header" id="header">
+         <div class="header__toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+         </div>
+         <div class="header__img">
+            <p>Contrutora Cristina</p>
+            <img src="assets/img/perfil.png" alt="">                
+         </div>
+      </header>
+      <div class="l-navbar" id="nav-bar">
+         <nav class="nav">
+            <div>
+               <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="">
+                <span class="nav__logo-name">ConstruApp</span>
+               </a>
+               <div class="nav__list">
+                  <a href="minhasobras.html" class="nav__link active">
+                    <i class='bx bx-buildings nav__icon'></i>
+                    <span class="nav__name">Minhas Obras</span>
+                  </a>
+                  <!--<a href="#" class="nav__link">
+                     <i class='bx bx-calendar nav__icon'></i>
+                     <span class="nav__name">Calendário</span>
+                     </a> -->
+                  <a href="fornecedor.html" class="nav__link">
+                    <i class='bx bx-store nav__icon'></i>
+                    <span class="nav__name">Fornecedor</span>
+                  </a>
+                  <a href="funcionario.html" class="nav__link">
+                    <i class='bx bx-user nav__icon'></i>
+                    <span class="nav__name">Funcionários</span>
+                  </a>
+                  <a href="https://web.whatsapp.com/send?phone=" target="_blank" class="nav__link">
+                    <i class='bx bx-chat nav__icon' ></i>
+                    <span class="nav__name">Chat</span>
+                  </a>
+                  <!-- <a href="#" class="nav__link">
+                  <i class='bx bx-bell nav__icon'></i>
+                  <span class="nav__name">Notificações</span>
+                  </a> -->
+               </div>
+            </div>
+            <a href="index.html" class="nav__link">
+            <i class='bx bx-log-out nav__icon' ></i>
+            <span class="nav__name">Sair</span>
+            </a>
+         </nav>
+      </div>
+      
+      <section class="azul">
+         <div class="laranja">
+            <div class="rosinha">
+               <h1>Funcionários</h1>
+            </div>
+          <div class="icone">
+            <div>
+              <a href="addfunc.html"><i class='bx bxs-plus-circle nav__icon2'></i></a>
+            </div>   
+         </div>
+      </section>
+      <section class="info">
+        <aside>
+          <div class="funcionario"> 
+            <div class="foto">
+              <button id='btn-perfil1'><img src="assets/img/func1.png" alt=""></button>
+            </div>           
+            <div class="nome_func">
+              <h3>Lariane Guerra</h3>
+              <p>Engenheira</p>                 
+            </div>         
+          </div>
+
+          <div class="funcionario"> 
+            <div class="foto">
+              <button id='btn-perfil2'><img src="assets/img/func2.png" alt=""></button>
+            </div>           
+            <div class="nome_func">
+              <h3>Vanessa Pires</h3>
+              <p>Estagiária</p>
+            </div>         
+          </div>
+
+          <div class="funcionario"> 
+            <div class="foto">
+              <button id='btn-perfil3'><img src="assets/img/func3.png" alt=""></button>
+            </div>           
+            <div class="nome_func">
+              <h3>Ivanir Pedroni</h3>
+              <p>Mestre de Obras</p>
+            </div>         
+          </div>
+
+          <div class="funcionario"> 
+            <div class="foto">
+              <button id='btn-perfil4'><img src="assets/img/func4.png" alt=""></button>
+            </div>           
+            <div class="nome_func">
+              <h3>Rafael Fernandes</h3>
+              <p>Arquiteto</p>
+            </div>         
+          </div>
+
+          <!-- <div class="funcionario"> 
+            <div class="foto">
+              <button id='btn-perfil5'><img src="assets/img/func4.png" alt=""></button>
+            </div>           
+            <div class="nome_func">
+              <h3>Adalberto Gusmão</h3>
+              <p>Carpinteiro</p>
+            </div>         
+          </div> -->
+        </aside>
+
+        <article>
+            <div id="func1">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/func1.png" alt="">
+                    <h3>Lariane Guerra</h3>
+                    <p>Engenheira</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1">
+                    <h4>Data de Nascimento:</h4>
+                    <p>12/10/1986</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Matrícula:</h4>
+                    <p>4567889</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Data Início:</h4>
+                    <p>01/10/2020</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Obra Vinculada:</h4>
+                    <p>Residencial Turim</p>
+                  </div>
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Rua São Geraldo</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>30</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p>Casa</p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>CEP:</h4>
+                    <p>304516-450</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Santo Antônio</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>Belo Horizonte</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>                                    
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Celular:</h4>
+                    <p>(31)99999.9999</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone:</h4>
+                    <p></p>
+                  </div>
+                  <div class = "campos4c">
+                    <h4>e-mail:</h4>
+                    <p>lariane.guerra@gmail.com</p>
+                  </div>                                 
+                </div>
+            </div>
+
+            <div id="func2">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/func2.png" alt="">
+                    <h3>Vanessa Pires</h3>
+                    <p>Estagiária</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1">
+                    <h4>Data de Nascimento:</h4>
+                    <p>22/01/1987</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Matrícula:</h4>
+                    <p>567435</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Data Início:</h4>
+                    <p>16/07/2019</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Obra Vinculada:</h4>
+                    <p>Residencial Turim</p>
+                  </div>
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Rua Dona Clara</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>201</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p>Ap 508</p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>CEP:</h4>
+                    <p>30516-450</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Santa Amélia</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>Belo Horizonte</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>                                  
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Celular:</h4>
+                    <p>(31)98765.4040</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone:</h4>
+                    <p></p>
+                  </div>
+                  <div class = "campos4c">
+                    <h4>e-mail:</h4>
+                    <p>vanessa.pires@hotmail.com</p>
+                  </div>                                 
+                </div>
+            </div>
+
+            <div id="func3">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/func3.png" alt="">
+                    <h3>Ivanir Pedroni</h3>
+                    <p>Mestre de Obras</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1">
+                    <h4>Data de Nascimento:</h4>
+                    <p>01/06/1981</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Matrícula:</h4>
+                    <p>89654321</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Data Início:</h4>
+                    <p>01/11/2020</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Obra Vinculada:</h4>
+                    <p>Residencial Turim</p>
+                  </div>
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Rua Bom Pastor</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>520</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p>Casa</p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>CEP:</h4>
+                    <p>30332-900</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Aparecida</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>Belo Horizonte</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>         
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Celular:</h4>
+                    <p>(31)98888.6030</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone:</h4>
+                    <p></p>
+                  </div>
+                  <div class = "campos4c">
+                    <h4>e-mail:</h4>
+                    <p>ivanir_pedroni@hotmail.com</p>
+                  </div>                                 
+                </div>
+            </div>
+
+            <div id="func4">
+               <div class="cabecalho">
+                  <div>                    
+                    <img src="assets/img/func4.png" alt="">
+                    <h3>Rafael Fernandes</h3>
+                    <p>Arquiteto</p>
+                  </div>
+                </div>
+               
+                <div id = "campos1">
+                  <div class = "campos1">
+                    <h4>Data de Nascimento:</h4>
+                    <p>22/02/1987</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Matrícula:</h4>
+                    <p>98765432</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Data Início:</h4>
+                    <p>15/10/2018</p>
+                  </div>
+                  <div class = "campos1">
+                    <h4>Obra Vinculada:</h4>
+                    <p>Residencial Turim</p>
+                  </div>
+                </div>
+
+                <div id = "campos2">
+                  <div class = "campos2a">
+                    <h4>Endereço:</h4>
+                    <p>Rua Itatiaia</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>nº:</h4>
+                    <p>425</p>
+                  </div>
+                  <div class = "campos2">
+                    <h4>Complemento:</h4>
+                    <p>Ap 501</p>
+                  </div>                 
+                </div>  
+
+                <div id = "campos3">
+                  <div class = "campos3">
+                    <h4>Cep:</h4>
+                    <p>31777-900</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Bairro:</h4>
+                    <p>Buritis</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Cidade:</h4>
+                    <p>Belo Horizonte</p>
+                  </div>
+                  <div class = "campos3">
+                    <h4>Estado:</h4>
+                    <p>Minas Gerais</p>
+                  </div>         
+                </div>
+
+                <div id = "campos4">
+                  <div class = "campos4">
+                    <h4>Celular:</h4>
+                    <p>(31)99821.0010</p>
+                  </div>
+                  <div class = "campos4">
+                    <h4>Telefone:</h4>
+                    <p></p>
+                  </div>
+                  <div class = "campos4c">
+                    <h4>e-mail:</h4>
+                    <p>rafael.fernandes@gmail.com</p>
+                  </div>                                 
+                </div>
+            </div>
+
+            
+            
+        </article>
+      </section>
+
+        <script src="assets/js/funcionario.js"></script>
+         
+   </body>
+</html>

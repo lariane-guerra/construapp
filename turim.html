@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ===== BOX ICONS ===== -->
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+      <!-- ===== CSS ===== -->
+
+      <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/stylesturim.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/stylesarquivos.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/stylesprogresso.css" type="text/css" />
+      <link rel="stylesheet" href="assets/css/stylesgaleria.css" type="text/css" />
+
+      <!-- ===== CSS CALENDÁRIO ===== -->
+       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <link rel="stylesheet" href="assets/calendario/css/stylescalendario.css"/> 
+  
+   </head>
+   <body id="body-pd">
+      <header class="header" id="header">
+         <div class="header__toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+         </div>
+         <div class="header__img">
+            <p>Contrutora Cristina</p>
+            <img src="assets/img/perfil.png" alt="">                
+         </div>
+      </header>
+      <div class="l-navbar" id="nav-bar">
+         <nav class="nav">
+            <div>
+               <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="">
+                <span class="nav__logo-name">ConstruApp</span>
+               </a>
+               <div class="nav__list">
+                  <a href="minhasobras.html" class="nav__link active">
+                    <i class='bx bx-buildings nav__icon'></i>
+                    <span class="nav__name">Minhas Obras</span>
+                  </a>
+                  <!--<a href="#" class="nav__link">
+                     <i class='bx bx-calendar nav__icon'></i>
+                     <span class="nav__name">Calendário</span>
+                     </a> -->
+                  <a href="fornecedor.html" class="nav__link">
+                    <i class='bx bx-store nav__icon'></i>
+                    <span class="nav__name">Fornecedor</span>
+                  </a>
+                  <a href="funcionario.html" class="nav__link">
+                    <i class='bx bx-user nav__icon'></i>
+                    <span class="nav__name">Funcionários</span>
+                  </a>
+                  <a href="https://web.whatsapp.com/send?phone=" target="_blank"  class="nav__link">
+                    <i class='bx bx-chat nav__icon' ></i>
+                    <span class="nav__name">Chat</span>
+                  </a>
+                  <!-- <a href="#" class="nav__link">
+                  <i class='bx bx-bell nav__icon'></i>
+                  <span class="nav__name">Notificações</span>
+                  </a> -->
+               </div>
+            </div>
+            <a href="index.html" class="nav__link">
+            <i class='bx bx-log-out nav__icon' ></i>
+            <span class="nav__name">Sair</span>
+            </a>
+         </nav>
+      </div>
+      <section class="azul">
+         <div class="laranja">
+            <div class="rosinha">
+               <h1>Residencial Turim</h1>
+            </div>
+         </div>
+      </section>
+      <section class="info">
+         <aside>
+            <div id="regiao_foto">            
+               <img src="assets/img/obra.png" alt="">
+            </div>
+            <div id="progresso">
+               <h1>Progresso da Obra</h1>
+               <div class="bar-holder">
+                  <div class="bar-3">60%</div>
+               </div>
+            </div>
+            <div id="informacoes">
+               <p><span>Localidade:</span> Rua xxx</p>
+               <p><span>Data de Início:</span> 08/10/2021</p>
+               <p><span>Previsão de Entrega:</span> 12/2024</p>
+               <p><span>Engenheiro(a) Responsável:</span> Lariane Guerra </p>
+            </div>
+         </aside>
+         
+         <article>
+            <div id="areabotoes">
+               <button id='btn-div'>Arquivos</button>
+               <button  id='btn-div1'>Galeria</button>
+               <button id='btn-div2'>Calendário</button>
+               <button id='btn-div3'>Progresso</button>   
+                        
+            </div>
+            
+            <div id="arquivos">
+               <div class="tituloconteudo">
+                  <div>
+                     <h3>Arquivos</h3>
+                  </div>
+                  <div>
+                     <label for="inputfile" class='bx bxs-plus-circle nav__icon2'> 
+                     <input type="file" id="inputfile" hidden/>
+                     </label> 
+                  </div>
+               </div>
+               <div class="div_arquivo">
+                  <a href="assets/arquivos/relatorio.txt" open target="popup">
+                     <span class="nome_arquivo">Relatório</span>
+                     <embed src="assets/arquivos/relatorio.txt" type="text/plain" hidden="true">
+                  </a>
+                  <a href="assets/arquivos/relatorio.txt" download>
+                  <i class='bx bxs-download icon_arq'></i>
+                  </a>
+               </div>
+               <div class="div_arquivo">
+                  <a href="assets/arquivos/contrato.pdf" open target="popup">
+                     <span class="nome_arquivo">Contrato</span>
+                     <embed src="assets/arquivos/contrato.pdf" type="application/pdf" hidden="true">
+                  </a>
+                  <a href="assets/arquivos/contrato.pdf" download>
+                  <i class='bx bxs-download icon_arq'></i>
+                  </a>
+               </div>
+               <div class="div_arquivo">
+                  <a href="assets/arquivos/fluxo_caixa.xls" open target="popup">
+                     <span class="nome_arquivo">Fluxo de Caixa</span>
+                     <embed src="assets/arquivos/fluxo_caixa.xls" type="application/vnd.ms-excel" hidden="true">
+                  </a>
+                  <a href="assets/arquivos/fluxo_caixa.xls" download>
+                  <i class='bx bxs-download icon_arq'></i>
+                  </a>
+               </div>
+               <div class="div_arquivo">
+                  <a href="assets/arquivos/planta.png" open target="popup">
+                     <span class="nome_arquivo">Planta Imóvel</span>
+                     <embed src="assets/arquivos/planta.png" type="image/png" hidden="true">
+                  </a>
+                  <a href="assets/arquivos/planta.png" download>
+                  <i class='bx bxs-download icon_arq'></i>
+                  </a>
+               </div>
+            </div>
+
+
+            <div id="galeria">
+               <div class="tituloconteudo">
+                  <div>
+                     <h3>Galeria</h3>
+                  </div>
+                  <div><i class='bx bxs-plus-circle nav__icon2' ></i></div>
+               </div>
+               <section>
+                  <div class="galeria-container">
+                     <a href="assets/img/01.jpg" class="galeria-itens">
+                     <img src="assets/img/01.jpg" alt="">
+                     </a>
+                     <a href="assets/img/02.jpg" class="galeria-itens">
+                     <img src="assets/img/02.jpg" alt="construcao">
+                     </a>
+                     <a href="assets/img/03.jpg" class="galeria-itens">
+                     <img src="assets/img/03.jpg" alt="construcao">
+                     </a>
+                     <a href="assets/img/04.jpg" class="galeria-itens">
+                     <img src="assets/img/04.jpg" alt="construcao">
+                     </a>
+                     <a href="assets/img/05.jpg" class="galeria-itens">
+                     <img src="assets/img/05.jpg" alt="construcao">
+                     </a>
+                     <a href="assets/img/06.jpg" class="galeria-itens">
+                     <img src="assets/img/06.jpg" alt="construcao">
+                     </a>
+                     <a href="assets/img/07.jpg" class="galeria-itens">
+                     <img src="assets/img/07.jpg" alt="construcao">
+                     </a>
+                     <a href="assets/img/08.jpg" class="galeria-itens">
+                     <img src="assets/img/08.jpg" alt="construcao">
+                     </a>
+                     <a href="assets/img/09.jpg" class="galeria-itens">
+                     <img src="assets/img/09.jpg" alt="construcao">
+                     </a>
+                  </div>
+               </section>
+            </div>
+
+            
+            
+            <div id="calendario">
+               <div class="tituloconteudo">
+                  <div>
+                     <h3>Calendário</h3>
+                  </div>
+                  <div><i class='bx bxs-plus-circle nav__icon2' ></i></div>
+               </div>
+
+                <div id="calendar">
+                  </div> 
+            </div>
+
+
+            
+            <div id="btnprogresso">
+               <div class="tituloconteudo">
+                  <div>
+                     <h3>Progresso da Obra</h3>
+                  </div>
+                  <div><i class='bx bxs-plus-circle nav__icon2' ></i></div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Alvenaria</span> </p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="emandamento">Em andamento</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Cobertura</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="naoiniciada">Não iniciada</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Estrutura de concreto</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="concluido">Concluído</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Estrutura Metálica</span>.</p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="concluido">Concluído</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Forros</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="naoiniciada">Não iniciada</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Fundação</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="concluido">Concluído</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Impermeabilização</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="concluido">Concluído</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Instalação Elétrica</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="emandamento">Em andamento</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Instalações Hidrosanitária</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="emandamento">Em andamento</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Pisos</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="naoiniciada">Não iniciada</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Revestimento</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="naoiniciada">Não iniciada</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+               <div class="etapas">
+                  <div class="etapasconteudo">
+                     <p><span>Serviços Preliminares</span></p>
+                  </div>
+                  <div class="classificacao">
+                     <div class="concluido">Concluído</div>
+                     <i class='bx bx-edit-alt nav__iconn'></i>            
+                  </div>
+               </div>
+            </div>
+         </article>
+      </section>
+      <!--===== MAIN JS =====-->
+      <script src="assets/js/main.js"></script>
+      <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>       
+      <!--===== JS CALENDARIO =====-->
+    <script type="text/javascript" src="assets/calendario/js/calendario.js"></script>
+    <script type="text/javascript" src="assets/calendario/js/eventos.js"></script>
+    <script type="text/javascript" src="assets/calendario/js/calendario.min.js"></script> 
+   </body>
+</html>

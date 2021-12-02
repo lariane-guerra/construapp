@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- ===== BOX ICONS ===== -->
+   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+   <!-- ===== CSS ===== -->
+   <link rel="stylesheet" href="assets/css/stylesaddfunc.css">
+   <title>ConstruAPP</title>
+</head>
+
+<body id="body-pd">
+   <header class="header" id="header">
+      <div class="header__toggle">
+         <i class='bx bx-menu' id="header-toggle"></i>
+      </div>
+      <div class="header__img">
+         <p>Contrutora Cristina</p>
+         <img src="assets/img/perfil.png" alt="">
+      </div>
+   </header>
+   <div class="l-navbar" id="nav-bar">
+      <nav class="nav">
+         <div>
+            <a href="#" class="nav__logo">
+               <img src="assets/img/logo.png" alt="">
+               <span class="nav__logo-name">ConstruApp</span>
+            </a>
+            <div class="nav__list">
+               <a href="minhasobras.html" class="nav__link active">
+                  <i class='bx bx-buildings nav__icon'></i>
+                  <span class="nav__name">Minhas Obras</span>
+               </a>
+
+               <!--<a href="#" class="nav__link">
+                  <i class='bx bx-calendar nav__icon'></i>
+                  <span class="nav__name">Calendário</span>
+                  </a> -->
+
+               <a href="#" class="nav__link">
+                  <i class='bx bx-store nav__icon'></i>
+                  <span class="nav__name">Fornecedor</span>
+               </a>
+               <a href="#" class="nav__link">
+                  <i class='bx bx-user nav__icon'></i>
+                  <span class="nav__name">Funcionários</span>
+               </a>
+
+               <a href="https://web.whatsapp.com/send?phone=" target="_blank" class="nav__link">
+                  <i class='bx bx-chat nav__icon'></i>
+                  <span class="nav__name">Chat</span>
+               </a>
+               <!-- <a href="#" class="nav__link">
+                  <i class='bx bx-bell nav__icon'></i>
+                  <span class="nav__name">Notificações</span>
+               </a> -->
+            </div>
+         </div>
+         <a href="index.html" class="nav__link">
+            <i class='bx bx-log-out nav__icon'></i>
+            <span class="nav__name">Sair</span>
+         </a>
+      </nav>
+   </div>
+
+   <section class="azul">
+      <div class="laranja">
+         <div class="rosinha">
+            <h1>Cadastrar Funcionário</h1>
+         </div>
+      </div>
+      <div class="content-out">
+         <div class="imagem-botao">
+            <div class="imagem-perfil">
+               <img src="assets/img/semfoto-jpeg.jpeg" alt="adicionar-func" width="512" height="512">
+            </div>
+            <div>
+               <label class="botao-adicionar">
+                  <input id="add" type="file" required/>
+                  Adicionar
+               </label>
+            </div>
+         </div>
+         <form class="formulario">
+            <div class="formgeral">
+               <label class="nome">Nome
+                  <input type="text" name="nome">
+               </label>
+               <label class="dtanascimento">Dta Nascimento
+                  <input type="date" min="2000-01-01" max="2050-12-31">
+               </label>
+            </div>
+            <div class="formgeral">
+               <label class="matricula">Matrícula
+                  <input type="text" name="matricula">
+               </label>
+               <label class="dtainicio">Dta Inicio
+                  <input type="date" min="2000-01-01" max="2050-12-31">
+               </label>
+               <label class="obra-vinculada">Obra Vinculada:
+                  <select id="seletorobra" name="uf">
+                     <option selected>Residencial Turim</option>
+                     <option>Comercial São Roque</option>
+                     <option>Imóvel Vilaverde</option>
+                     <option>Residencial Eden</option>
+                     <option>Residencial Newton</option>
+                     <option>Residencial Carvalho</option>
+                  </select>
+               </label>
+            </div>
+            <div class="formgeral">
+               <label class="endereco">Rua/Avenida
+                  <input type="text" name="endereco">
+               </label>
+               <label class="numero">Nº
+                  <input type="text" name="numero">
+               </label>
+               <label class="cep">CEP
+                  <input type="text" name="cep" placeholder="_____-___">
+               </label>
+            </div>
+            <div class="formgeral">
+               <label class="bairro">Bairro
+                  <input type="text" name="bairro">
+               </label>
+               <label class="cidade">Cidade
+                  <input type="text" name="cidade">
+               </label>
+               <label class="estado">Estado
+                  <input type="text" name="estado">
+               </label>
+            </div>
+            <div class="formgeral">
+               <label class="celular">Celular
+                  <input type="text" name="contrato" placeholder="(xx)-(xxxxx-xxxx)"(>
+               </label>
+               <label class="telefone">Telefone
+                  <input type="text" name="telefone">
+               </label>
+               <label class="email">E-mail
+                  <input type="text" name="e-mail">
+               </label>
+
+            </div>
+            <div class="butao">
+               <button class="botao" type="submit">Salvar</button>
+            </div>
+         </form>
+      </div>
+   </section>
+
+
+   <!--===== MAIN JS =====-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
